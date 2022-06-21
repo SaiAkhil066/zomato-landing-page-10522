@@ -248,6 +248,87 @@
   font-size: 14px;
 }
 
+/* Localities */
+.localities_card_container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+  cursor: pointer;
+
+}
+
+.card5 {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 100px 10px 15px;
+  font-weight: 300;
+  font-size: large;
+}
+.card5:hover, .card6:hover, .card7:hover, .card8:hover, .card9:hover, .card10:hover {
+  box-shadow: 1px 1px 1px 2px rgba(199, 189, 189, 0.926);
+}
+
+.card6 {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 100px 10px 15px;
+  font-weight: 300;
+  font-size: large;
+  
+}
+
+.card7 {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 100px 10px 15px;
+  font-weight: 300;
+  font-size: large;
+  
+}
+
+.card8 {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 100px 10px 15px;
+  font-weight: 300;
+  font-size: large;
+  
+}
+
+.card9 {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 100px 10px 15px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.card10 {
+  width: 350px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px 100px 10px 15px;
+  font-weight: 300;
+  font-size: large;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+
+
+
+
 .get__the_app {
   display: flex;
   align-items: center;
@@ -382,6 +463,55 @@
     flex-direction: column;
   }
 }
+
+/* Explore options near me */
+.explore_options_cards {
+  display: grid;
+  gap: 2rem;
+  cursor: pointer;
+  
+}
+
+.card11 {
+  width: 1200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px 500px 20px 15px;
+  font-weight: 300;
+  font-size: large;
+  margin-top: 30px;
+}
+
+.card12 {
+  width: 1200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px 500px 20px 15px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.card13 {
+  width: 1200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px 500px 20px 15px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.card14 {
+  width: 1200px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 15px 500px 20px 15px;
+  font-weight: 300;
+  font-size: large;
+}
+
+
+
+
 
 .footer {
   width: 100%;
