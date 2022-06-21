@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zomato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -12,22 +17,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="shortcut icon" href="/images/zomato_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <!--Hero Section-->
     <section class="hero__section">
       <header>
         <nav class="navbar">
-         <i class="fa-solid fa-mobile-screen-button" id="mobile_app"></i><a href="#" id="app">Get the App</a>
+          <a href="#">Get The App</a>
           <div class="navbar__menu_container">
-            <a href="#" class="link">Inverstor Relations</a>
+            <a href="#" class="link">Investor Relations</a>
             <a href="#" class="link">Add Restaurant</a>
-            <a href="#" class="link">Log In</a>
+            <a href="#" class="link">Login</a>
             <a href="#" class="link">Sign Up</a>
             <a href="#" class="user__icon">
-              <i class="fa-solid fa-user"></i>
+              <i class="fa fa-user"></i>
             </a>
           </div>
         </nav>
@@ -35,7 +39,7 @@
       <div class="hero__section_container">
         <img
           class="hero__section_logo"
-          src="/images/heroSectionLogo.png"
+          src="./images/heroSectionLogo.png"
           alt="Zomato Logo"
         />
         <h1 class="hero__section_title">
@@ -43,39 +47,37 @@
         </h1>
         <div class="hero__section_input_container">
           <input
-            type="text"
             class="input_container_location"
-            placeholder="📍YWCA, 1, A Ashoka Road.  ↓ "
+            type="text"
+            placeholder="YWCA, 1, Ashok Rd, Hanu"
           />
           <input
-            type="text"
             class="input_container_search"
-            placeholder="🔎 Search for a restaurant, cuisine."
+            type="text"
+            placeholder="Search for a restaurant, cuisine or a dish"
           />
         </div>
       </div>
     </section>
 
-    <!--Card Section-->
     <section class="container we__offer">
       <div class="card">
-        <img src="/images/item1.png" alt="offer" />
+        <img src="./images/item1.png" alt="offer" />
         <h2>Order Online</h2>
-        <p>Stay home and order to your door step</p>
+        <p>Stay home and order to your doorstep</p>
       </div>
       <div class="card">
-        <img src="/images/item2.png" alt="offer" />
+        <img src="./images/item2.png" alt="offer" />
         <h2>Dining Out</h2>
-        <p>View the cities favourite dining venues</p>
+        <p>View the city's favourite dining venues</p>
       </div>
       <div class="card">
-        <img src="/images/item3.png" alt="offer" />
+        <img src="./images/item3.png" alt="offer" />
         <h2>Nightlife and Clubs</h2>
-        <p>Explore the cities top nightlife outlets</p>
+        <p>Explore the city's top nightlife outlets</p>
       </div>
     </section>
 
-    <!-- Collections Section-->
     <section class="container collections">
       <h1>Collections</h1>
       <div class="sub__heading_container">
@@ -83,7 +85,7 @@
           >Explore curated lists of top restaurants, cafes, pubs, and bars in
           Delhi NCR, based on trends</span
         >
-        <span id="all_collections">All collections in Delhi NCR</span> <span><i id="side_arrow" class="fa-solid fa-angle-right"></i></span>
+        <span>All collections in Delhi NCR</span>
       </div>
       <div class="collections_card_container">
         <div class="card card1">
@@ -116,5 +118,39 @@
         </div>
       </div>
     </section>
+
+    <section class="container get__the_app">
+      <div class="semiContainer">
+        <div class="left">
+          <img src="./images/mobileBanner.png" alt="" />
+        </div>
+        <div class="right">
+          <h1>Get the Zomato App</h1>
+          <p>We will send a link, open it on your phone to download the app.</p>
+          <div class="radio__buttons_container">
+            <div>
+              <input type="radio" id="email" name="download_app" />
+              <label for="email" style="font-size: 14px">Email</label>
+            </div>
+            <div>
+              <input type="radio" id="phone" name="download_app" />
+              <label for="phone" style="font-size: 14px">Phone</label>
+            </div>
+          </div>
+          <div class="input_container">
+            <input type="text" placeholder="Email" />
+            <button>Share App Link</button>
+          </div>
+          <div class="download__app_container">
+            <h5>Download App From</h5>
+            <div>
+              <img src="./images/appleStore.png" alt="apple store" />
+              <img src="./images/playStore.png" alt="play store" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
   </body>
 </html>
